@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="texture" src= "pierre.jpg">
+        <img id="texture2" src= "sol2.jpg">
+      </a-assets>
+
+      <a-box position="0 1 -1.500" rotation="" scale="3 2 0.01" src="#texture"></a-box>
+      <a-box position="0 1 1.500" rotation="" scale="3 2 0.01" src="#texture"></a-box>
+      <a-box position="-1.500 1 0.004" rotation="0 90 0" scale="3 2 0.01" src="#texture"></a-box>
+      <a-box position="1.500 1 0.350" rotation="0 90 0" scale="2.300 2 0.01"  src="#texture"></a-box>
+      <a-box position="-0.700 1 -375.0" rotation="0 90 0" scale="0.850 2 0.01"  src="#texture"></a-box>
+      <a-box position="0.040 1 0.761" rotation="" scale="1.470 2 0.01" src="#texture"></a-box>
+      <a-box position="-0.0 1 -0.765" rotation="0 90 0" scale="1.480 2 0.01" src="#texture"></a-box>
+      <a-box position="1.100 1 -0.800" rotation="" scale="0.820 2 0.01"src="#texture"></a-box>
+      <a-box position="-1.100 1 -0.800" rotation="" scale="0.800 2 0.01"src="#texture"></a-box>
+      <a-box position="-0.70 1 0.786" rotation="0 90 0" scale="1.408 2 0.01"src="#texture"></a-box>
+      <a-box position="0.387 1 -0.025" rotation="" scale="0.790 2 0.01"src="#texture"></a-box>
+
+      <a-plane position="0 0 0" rotation="-90 0 0" width="3" height="3" src="#texture2"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
